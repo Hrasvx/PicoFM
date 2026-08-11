@@ -3,8 +3,7 @@
 FM transmitter on a Pico. Shows up as a USB sound card, pick it as your output
 and whatever plays goes out over the air. Tune it with the BOOTSEL button.
 
-Flash **`../rp2040radiopicow.uf2`** (Pico W) or
-**`../rp2040radiopico.uf2`** (plain Pico).
+Flash **`../rp2040radiopicow.uf2`** (Pico W)
 
 RF comes out on **GPIO21**. Boots on **90.0 MHz**.
 **I don't recommend connecting an antenna to GTIO21 AS THAT COULD BE ILLEGAL** since it extends the transmit distance.
